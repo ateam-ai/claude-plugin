@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ateam": {
+      "type": "http",
+      "url": "https://mcp.ateam-ai.com",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      },
+      "timeout": 600000
+    }
+  }
+}

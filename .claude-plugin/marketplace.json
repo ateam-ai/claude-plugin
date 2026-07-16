@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ateam-ai",
+  "owner": {
+    "name": "A-Team",
+    "email": "support@ateam-ai.com"
+  },
+  "metadata": {
+    "description": "Official A-Team plugins for Claude Code — build and drive A-Team solutions.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "ateam",
+      "source": "ateam",
+      "category": "development",
+      "description": "Set up and build A-Team solutions from Claude Code. Prompts for your tenant key at enable time, connects the A-Team MCP, and guides you through building your first solution using the platform's live workflows."
+    }
+  ]
+}

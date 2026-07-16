@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "ateam",
+  "displayName": "A-Team",
+  "version": "1.0.0",
+  "description": "Build and drive A-Team solutions from Claude Code. Prompts for your tenant API key at enable time and connects the generic A-Team MCP.",
+  "author": {
+    "name": "A-Team",
+    "url": "https://ateam-ai.com"
+  },
+  "homepage": "https://mcp.ateam-ai.com",
+  "repository": "https://github.com/ateam-ai/claude-plugin",
+  "license": "MIT",
+  "keywords": ["ateam", "a-team", "mcp", "agents", "solutions"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "A-Team API key",
+      "description": "Your tenant key from https://mcp.ateam-ai.com/get-api-key (format: adas_<tenant>_<hex>).",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
