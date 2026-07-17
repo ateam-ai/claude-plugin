@@ -7,13 +7,12 @@
   },
   "metadata": {
     "description": "Official A-Team plugins for Claude Code — build and drive A-Team solutions.",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "ateam",
-      "source": "ateam",
+      "source": "./plugins/ateam",
       "category": "development",
       "description": "Set up and build A-Team solutions from Claude Code. Prompts for your tenant key at enable time, connects the A-Team MCP, and guides you through building your first solution using the platform's live workflows."
     }
